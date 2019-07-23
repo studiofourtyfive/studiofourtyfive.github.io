@@ -1,0 +1,127 @@
+div {
+	margin: 0 0;
+	padding:0 0;
+}
+
+@font-face {
+  font-family: fivosans-bold;
+  src: url('../fivosansbold.otf');
+}
+
+@font-face {
+  font-family: fivosans-regular;
+  src: url('../fivosansregular.otf');
+}
+
+body {
+	background:white;
+	font-family: fivosans-bold, sans-serif;
+	font-size:1em;
+	transition: 0.6s all;
+	margin:0 0;
+	padding: 0 0;
+}
+
+img {
+	width:auto;
+	display: block;
+}
+
+h2 {
+	font-size:4em;
+	font-weight:400;
+	letter-spacing:-2px;
+	color:#000000;
+	margin:0 0;
+	padding:0 0;
+	line-height: 80px;
+	text-align: center;
+}
+
+span {
+	font-family: fivosans-regular, sans-serif;
+}
+
+p {
+	font-size:3em;
+	font-weight:300;
+	color:black;
+	line-height:1.7;
+	letter-spacing:0.6px;
+	margin:0 0;
+	padding:0 0;
+}
+
+a {
+	text-decoration: none;
+	transition: all .15s linear;
+	opacity: 1;
+    color: #000000;
+    font-weight: 500;
+}
+
+#menu {
+	float:right;
+	width:300px;
+	margin-top: 70px;
+	margin-right: 80px;
+	z-index:22;
+}
+
+#fixed {
+	position:fixed;
+	z-index:22;
+}
+
+#fixed li {
+	display:inline;
+	margin-left:40px;
+	font-size:18px;
+	font-weight: 400;
+	transition:all linear 150ms;
+}
+
+#fixed a li:hover {
+    color: #0307fc;
+}
+
+#wrapper {
+	display:inline-block;
+	width:70%;
+	margin-left:20%;
+	max-width:1920px;
+}
+
+#intro {
+	display:inline-block;
+	width:80%;
+	max-width:1920px;
+	margin-top:200px;
+	margin-bottom:200px;
+}
+
+#intro img {
+	margin-top: 50px !important;
+	margin: 0 auto;
+	width:80px;
+}
+
+#line1 {
+	display:inline-block;
+	width:100%;
+}
+
+.big {
+	height:750px;
+	margin-bottom: 180px;
+}
+
+.medium {
+	height:500px;
+	margin-bottom:180px;
+}
+
+.small {
+	height:300px;
+	margin-bottom: 180px;
+}
